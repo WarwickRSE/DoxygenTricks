@@ -295,13 +295,12 @@ MODULE ising_functions
   !DOXYHINT A Doxygen group collects multiple functions, variables etc together. You don't need
   ! to use groups explicitly when you have modules.But for developer docs, it can be helpful to
   ! group more closely or broadly than your module structure
+  !DOXYHINT the @{ wraps everything until @} NOTE the position of @ as part of the group we just defined
   !> \defgroup core Core Functions
   !> \brief The basic functions from the Ising model
   !>
   !> These are the core functions operating on basic data type. DO NOT call these
   !> except from the Ising spin member functions!
-  !>
-  !DOXYHINT the @{ wraps everything until @} NOTE the position of @ as part of the group we just defined
   !> @{
   ! Blank Doygen lines close environments
   !> Setup the core spin grid with random states
