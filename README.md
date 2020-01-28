@@ -4,6 +4,12 @@
 These include tricks on making Doxygen handle Fortran well, how to make good documentation
 for Academic developers and a few other handy tricks.
 
+## Seeing the results
+To see the generated docs, obtain Doxygen, and run it from the FortranExample subdirectory. By
+default, doxygen will use a local Doxyfile, which is provided. Then, open the file dummy\_page.html
+This redirects to the docs, so you can keep them all walled off in the html directory but still have
+a nice clickable/openable docs file in the root directory.
+
 ## Where to look
 
 Most of the tricks require you to put commands etc inline in your source code comments - look for the
@@ -11,6 +17,9 @@ comments tagged as DOXYHINT to find these easily. Some also require modification
 and one or two need you to use a "layout" file. These files are included, and you can diff them against
 the default ones Doxygen generates to see the changes. There is also a bibs file, and a sample document
 to be included in the docs. Lastly, there is a custom css file to tweak some of the styling.
+
+For more information, see the main Doxygen docs "http://www.doxygen.nl/index.html" and the README file
+in the FortranExample directory
 
 #The tricks
 
@@ -59,7 +68,7 @@ in your own Doxyfiles.
 You can also create custom "groups" or modules (not like Fortran Modules) and assign various functions into them.
 These are then available collected onto a single page, as well as being documented in the normal places. For Fortran
 it is good to rename the tabs Doxygen generates for clarity, using a layout file (xml). This is generated using
-the command "oxygen -l layoutfilename.xml" and can then be edited.
+the command "doxygen -l layoutfilename.xml" and can then be edited.
 
 # References
 Layout file taken from https://stackoverflow.com/questions/20357342/is-there-a-way-to-change-the-doxygen-term-modules-in-the-tree-and-in-the-right-p
