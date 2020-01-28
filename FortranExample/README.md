@@ -1,6 +1,7 @@
 
 # The Code
-This code is an OO version of Ising Spin. It's spread across files and used some OO features.
+This code is an OO version of the simple Ising Spin model for magnetic domains.
+It's spread across files and uses some OO features.
 All of the code files are in a ".src" directory. Module and .o files are also placed here.
 It can be built using "./build IsingSpin.f90" and should run correctly. The final
 executable is called IsingSpin and should be in the root directory (not src)

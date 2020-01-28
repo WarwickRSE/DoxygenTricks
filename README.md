@@ -21,7 +21,7 @@ to be included in the docs. Lastly, there is a custom css file to tweak some of 
 For more information, see the main Doxygen docs "http://www.doxygen.nl/index.html" and the README file
 in the FortranExample directory
 
-#The tricks
+# The tricks
 
 ## Main Page
 
@@ -57,7 +57,7 @@ supplies 'todo' and 'bug' versions of this, as well as a page for references wit
 
 I like to do "caveats" and "future extensions" as custom tags. As well as being convenient, using an alias
 means you can change the command to not output these by only changing one line instead of trying to track
-down everywhere you used them. 
+down everywhere you used them.
 
 The 'xrefitem' command is the basis of this. The relevant commands are
 copied into the example Doxyfiles, and are also in the "aliases.txt" file if you want to include them
