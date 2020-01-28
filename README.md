@@ -5,7 +5,10 @@ These include tricks on making Doxygen handle Fortran well, how to make good doc
 for Academic developers and a few other handy tricks.
 
 ## Seeing the results
-To see the generated docs, obtain Doxygen, and run it from the FortranExample subdirectory. By
+The Github pages link above, or https://warwickrse.github.io//DoxygenFortran/dummy\_page.html
+links to a Github pages version of the generated docs.
+
+To tweak or explore the generated docs, obtain Doxygen, and run it from the FortranExample subdirectory. By
 default, doxygen will use a local Doxyfile, which is provided. Then, open the file dummy\_page.html
 This redirects to the docs, so you can keep them all walled off in the html directory but still have
 a nice clickable/openable docs file in the root directory.
