@@ -5,7 +5,7 @@ These include tricks on making Doxygen handle Fortran well, how to make good doc
 for Academic developers and a few other handy tricks.
 
 ## Seeing the results
-The Github pages link above, or https://warwickrse.github.io//DoxygenFortran/dummy\_page.html
+The Github pages link above, or https://warwickrse.github.io//DoxygenFortran/dummy_page.html
 links to a Github pages version of the generated docs.
 
 To tweak or explore the generated docs, obtain Doxygen, and run it from the FortranExample subdirectory. By
